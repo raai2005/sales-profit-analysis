@@ -11,7 +11,7 @@ Through this project, I practiced **data cleaning, database creation, explorator
 
 ## 📂 Project Structure
 
-SALES_PROFIT_ANALYSIS/
+SALES_ANALYSIS/
 ├── data/
 │ ├── SalesNCustomerData.csv # Original dataset
 │ ├── CleanedSalesData.csv # Cleaned dataset after preprocessing
@@ -76,9 +76,6 @@ The final dashboard was created in **Tableau Public**, summarizing the key insig
 
 ### 🖼️ Dashboard Preview
 
-_(Insert your Tableau screenshot below)_
-
-📸  
 ![Sales Dashboard](./DashboardImage.png)
 
 ---
