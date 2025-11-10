@@ -11,26 +11,29 @@ Through this project, I practiced **data cleaning, database creation, explorator
 
 ## 📂 Project Structure
 
+```bash
 SALES_ANALYSIS/
-├── data/
-│ ├── SalesNCustomerData.csv # Original dataset
-│ ├── CleanedSalesData.csv # Cleaned dataset after preprocessing
+├── 📁 data/                               # Raw and cleaned datasets
+│   ├── SalesNCustomerData.csv             # Original dataset
+│   └── CleanedSalesData.csv               # Cleaned dataset after preprocessing
 │
-├── database/
-│ ├── SalesData.db # SQLite database for SQL queries
+├── 📁 database/                           # SQLite database
+│   └── SalesData.db                       # Database for SQL queries
 │
-├── notebooks/
-│ ├── dataCleaning.ipynb # Data cleaning and preprocessing in Python
-│ ├── profitablefactsAnalysis.ipynb # Profitability and insights analysis
-│ ├── timeSeriesAnalysis.ipynb # Monthly and yearly trend analysis
+├── 📁 notebooks/                          # Jupyter notebooks for analysis
+│   ├── dataCleaning.ipynb                 # Data cleaning and preprocessing in Python
+│   ├── profitablefactsAnalysis.ipynb      # Profitability and insights analysis
+│   └── timeSeriesAnalysis.ipynb           # Monthly and yearly trend analysis
 │
-├── SQLqueries/
-│ ├── RegionalSales.sql # Sales performance by region
-│ ├── TopProducts.sql # Top 10 products by profit
-│ ├── MonthlyTrends.sql # Monthly sales trend query
+├── 📁 SQLqueries/                         # SQL scripts for data exploration
+│   ├── RegionalSales.sql                  # Sales performance by region
+│   ├── TopProducts.sql                    # Top 10 products by profit
+│   └── MonthlyTrends.sql                  # Monthly sales trend query
 │
-├── create_db.py # Script to create SQLite database
-└── README.md # Project documentation
+├── create_db.py                           # Script to create SQLite database
+└── README.md                              # Project documentation
+
+```
 
 ---
 
